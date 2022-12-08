@@ -15,3 +15,18 @@
 		</ul>
 	<% end_loop %>
 </div>
+
+<div class="container">
+	<% loop $VideoComments %>
+	    $Name <br>
+	    $Comment
+	<% end_loop %>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			$CommentForm
+		</div>
+	</div>
+</div>
