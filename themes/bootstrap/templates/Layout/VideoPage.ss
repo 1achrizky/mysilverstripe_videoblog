@@ -6,6 +6,12 @@
 		</video>
 		<% if $Description %>
 			<p>$Description</p>
-		<% end_if %> %>
+		<% end_if %>
+
+		<ul>
+			<% loop $VideoCategories %>
+			    <li>$Title</li>
+			<% end_loop %>
+		</ul>
 	<% end_loop %>
 </div>
